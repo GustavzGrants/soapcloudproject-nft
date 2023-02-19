@@ -1,0 +1,35 @@
+.page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  background-color: purple;
+  color: antiquewhite;
+  font-weight: bold;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.btn:active {
+  background-color: rgba(255, 255, 255, 0.601);
+}
+
+.btnDis {
+  background-color: rgb(57, 57, 57);
+  color: antiquewhite;
+  font-weight: bold;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+}
